@@ -1,0 +1,33 @@
+.cds-container {
+    @include flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    .cd {
+        @include flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-basis: 200px;
+        padding: 20px;
+        margin: 10px 20px;
+        height: 360px;
+        background: $colorHeader;
+        text-align: center;
+        img {
+            max-width: 100%;
+        }
+        h3 {
+            margin: 20px 0;
+            color: white;
+            font-size: 22px;
+            text-transform: uppercase;
+        }
+        .author {
+            color: grey;
+            font-size: 20px;
+        }
+        .year {
+            color: grey;
+        }
+    }
+}
