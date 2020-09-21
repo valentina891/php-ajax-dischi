@@ -22,21 +22,12 @@
         <main class="cds-container container">
             <?php foreach ($database as $cd) { ?>
                 <div class="cd">
-                    <img src= " <?php echo $cd['poster'];?> " alt="">
-                    <h3> <?php echo $cd['title']; ?> </h3>
-                    <span class="author"> <?php echo $cd['author']; ?> </span>
-                    <span class="year"> <?php echo $cd['year']; ?> </span>
+                    <img src= " <?= $cd['poster'];?> " alt="">
+                    <h3> <?= $cd['title']; ?> </h3>
+                    <span class="author"> <?= $cd['author']; ?> </span>
+                    <span class="year"> <?= $cd['year']; ?> </span>
                 </div>
             <?php } ?>
-
-            <!-- <script id="entry-template" type="text/x-handlebars-template">
-                <div class="cd {{genre}}">
-                    <img src="{{poster}}" alt="">
-                    <h3>{{title}}</h3>
-                    <span>{{author}}</span>
-                    <span>{{year}}</span>
-                </div>
-            </script> -->
         </main>
 
 

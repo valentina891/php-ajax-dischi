@@ -17,6 +17,7 @@
             max-width: 100%;
         }
         h3 {
+            height: 80px;
             margin: 20px 0;
             color: white;
             font-size: 22px;
@@ -29,5 +30,9 @@
         .year {
             color: grey;
         }
+        span {
+            color: white;
+        }
     }
+
 }

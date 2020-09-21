@@ -1,10 +1,4 @@
-<!-- Prima Milestone:
-Stampiamo i dischi solo con l’utilizzo di PHP,
-che stampa direttamente i dischi in pagina: al caricamento della pagina ci saranno tutti i dischi -->
-
-
 <?php
-
     $database = [
         [
             'title' => 'New Jersey',
@@ -43,14 +37,4 @@ che stampa direttamente i dischi in pagina: al caricamento della pagina ci saran
             'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg'
         ]
     ];
-
-// var_dump($database);
-
-// foreach ($database as $cd) {
-//     echo $cd['poster'];
-//     echo $cd['title'];
-//     echo $cd['author'];
-//     echo $cd['year'];
-// }
-
 ?>
