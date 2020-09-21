@@ -18,17 +18,17 @@
             </div>
         </header>
 
-        <main class="cds-container container"></main>
+        <main class="cds-container container">
 
-        <script id="entry-template" type="text/x-handlebars-template">
-            <div class="cd">
-                <img src="{{ img }}" alt="">
-                <h3>{{ titolo }}</h3>
-                <span>{{ autore }}</span>
-                <span>{{ anno }}</span>
-            </div>
-        </script>
-
+            <script id="entry-template" type="text/x-handlebars-template">
+                <div class="cd">
+                    <img src="{{ img }}" alt="">
+                    <h3>{{ titolo }}</h3>
+                    <span class="author">{{ autore }}</span>
+                    <span class="year">{{ anno }}</span>
+                </div>
+            </script>
+        </main>
 
 
         <script src="dist/app.js"></script>

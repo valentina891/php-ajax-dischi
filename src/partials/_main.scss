@@ -24,14 +24,11 @@
             text-transform: uppercase;
         }
         .author {
-            color: grey;
+            color: $colorTitleAuthor;
             font-size: 20px;
         }
         .year {
-            color: grey;
-        }
-        span {
-            color: white;
+            color: $colorTitleAuthor;
         }
     }
 
